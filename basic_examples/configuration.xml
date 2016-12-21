@@ -1,0 +1,13 @@
+<bean...>
+	<bean 
+		id="myController"
+		class="sample.spring.controller.MyController">
+
+	<contructor-arg
+		index="0"
+		ref="myService" />	
+	</bean>
+	<bean
+		id="myService"
+		class="sample.spring.service.MyService"/>
+</beans>
